@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Send and Archive",
     "description": "Archives messages you reply to",
-    "version": "0.1",
+    "version": "0.1.1",
     "author": "Filippo De Bortoli",
     "applications": {
         "gecko": {
@@ -15,8 +15,12 @@
         "background.js"
       ]
     },
+    "compose_action": {
+      "default_title": "Send and Archive"
+    },
     "permissions": [
       "compose",
+      "compose.send",
       "messagesRead",
       "messagesMove"
 
