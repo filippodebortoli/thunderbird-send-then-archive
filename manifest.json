@@ -16,7 +16,8 @@
       ]
     },
     "compose_action": {
-      "default_title": "Send and Archive"
+      "default_title": "Send and Archive",
+      "default_icon": "images/icon-32x32.svg"
     },
     "permissions": [
       "compose",
@@ -24,6 +25,11 @@
       "messagesRead",
       "messagesMove"
 
-    ]
+    ],
+    "icons": {
+      "64": "images/icon-64x64.svg",
+      "32": "images/icon-32x32.svg",
+      "16": "images/icon-16x16.svg"
+    }
 
 }
